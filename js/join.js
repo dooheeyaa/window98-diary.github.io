@@ -7,7 +7,7 @@
 
   function greetingUser(elem) {
     mainWrap.classList.remove("hidden");
-    greeting.innerText = `hello, ${elem}!`;
+    greeting.innerText = `hello, ${elem}🙋‍♂️`;
   }
 
   function joinHandler(e) {
