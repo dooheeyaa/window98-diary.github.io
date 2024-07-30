@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #e7eaf6;
+}
+.container {
+  position: relative;
+  width: 1000px;
+  height: 500px;
+  outline: 3px solid #38598b;
+  border-radius: 15px;
+}
+/* header 영역 */
+.header {
+  position: relative;
+  height: 70px;
+}
+.header-greeting-container {
+  position: absolute;
+  top: 30px;
+  width: 600px;
+  height: 40px;
+  border-bottom: 3px solid #38598b;
+}
+.header-greeting {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 590px;
+  font-size: 35px;
+  font-weight: bold;
+  border: 1px solid red;
+}
+/* 메인 콘텐츠 영역 */
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 13px;
+  height: 400px;
+}
+.section {
+  width: 25%;
+  height: 100%;
+}
+.main {
+  width: 45%;
+  height: 100%;
+}
+.aside {
+  width: 30%;
+  height: 100%;
+}
+.section-time-container {
+  position: relative;
+  width: 100%;
+  height: 100px;
+}
+.section-time-title {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.section-time {
+  position: absolute;
+  top: 45px;
+  left: 10px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.section-month-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 295px;
+}
+.secton-month {
+  width: 90%;
+  height: 100%;
+  border: 1px solid green;
+}
+.main-todo-list {
+  margin-top: 15px;
+  width: 100%;
+  height: 40%;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+}
+.main-todo-note {
+  margin-top: 20px;
+  width: 100%;
+  height: 50%;
+}
+#main-todo-note-form {
+  width: 100%;
+  height: 100%;
+}
+.aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.aside-music-container {
+  width: 95%;
+  height: 40%;
+  margin-bottom: 10px;
+  border: 2px solid red;
+}
+.aside-weather-container {
+  width: 95%;
+  height: 30%;
+  margin-bottom: 10px;
+  border: 2px solid red;
+}
+.aside-quote-container {
+  width: 95%;
+  height: 20%;
+  border: 2px solid red;
+}

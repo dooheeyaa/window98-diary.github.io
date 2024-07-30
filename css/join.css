@@ -1,0 +1,36 @@
+.join-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #e7eaf6;
+}
+.join {
+  position: relative;
+  width: 1000px;
+  height: 500px;
+  outline: 3px solid #38598b;
+  border-radius: 15px;
+}
+.join-message {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 170px;
+  width: 1000px;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.join-form {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 280px;
+  width: 1000px;
+  height: 7%;
+}
+.join-form input {
+  margin-right: 20px;
+  width: 60%;
+}
