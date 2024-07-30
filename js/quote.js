@@ -52,7 +52,8 @@
   author.classList.add("aside-author");
 
   quote.innerText = quotes[Math.floor(Math.random() * quotes.length)].quote;
-  author.innerText = quotes[Math.floor(Math.random() * quotes.length)].author;
+  author.innerText =
+    "- " + quotes[Math.floor(Math.random() * quotes.length)].author + " -";
 
   quoteCon.appendChild(quote);
   quoteCon.appendChild(author);

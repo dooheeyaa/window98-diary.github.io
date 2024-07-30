@@ -22,10 +22,11 @@
     const span = document.createElement("span");
     span.innerText = elem.value;
     const button = document.createElement("button");
-    button.innerText = "cancel";
+    button.classList.add("todo-button");
+    // button.innerText = "X";
 
-    li.appendChild(span);
     li.appendChild(button);
+    li.appendChild(span);
     todoList.appendChild(li);
 
     button.addEventListener("click", todoDelete);

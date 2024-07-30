@@ -95,27 +95,67 @@
 }
 /* todo 리스트 */
 .main-todo-list {
-  margin-top: 15px;
+  margin-top: 5px;
   width: 100%;
-  height: 40%;
-  border: 2px solid rgba(0, 0, 0, 0.4);
-  overflow: scroll;
+  height: 80%;
+  border: 2px solid #38598b;
+  /* overflow: scroll; */
 }
 .main-todo-note {
   margin-top: 20px;
   width: 100%;
-  height: 50%;
+  height: 10%;
 }
 #main-todo-note-form {
   width: 100%;
   height: 100%;
+}
+.todo-button {
+  margin: 10px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #38598b;
+  background-color: #e7eaf6;
 }
 /* 음악 */
 .aside-music-container {
   width: 95%;
   height: 40%;
   margin-bottom: 10px;
-  border: 2px solid red;
+  overflow: scroll;
+}
+.music-content-box {
+  position: relative;
+  margin-bottom: 5px;
+  width: 100%;
+  height: 50px;
+}
+.music-cover {
+  width: 50px;
+  height: 50px;
+  border: 2px solid green;
+}
+.music-des {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 60px;
+  width: 220px;
+  height: 50px;
+  border: 2px solid green;
+}
+.music-des-title {
+  width: 100%;
+  height: 60%;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid red;
+}
+.music-des-singer {
+  width: 100%;
+  height: 40%;
+  border: 1px solid red;
 }
 /* 날씨 */
 .aside-weather-container {
@@ -126,17 +166,20 @@
 }
 .aside-weather {
   position: absolute;
-  top: 20px;
-  font-size: 45px;
+  top: 30px;
+  font-size: 40px;
 }
 .aside-weather-temp,
 .aside-weather-city {
   position: absolute;
-  top: 70px;
-  font-size: 30px;
+  top: 90px;
+  font-size: 20px;
+}
+.aside-weather-temp {
+  left: 5px;
 }
 .aside-weather-city {
-  right: 40px;
+  right: 10px;
 }
 /* 랜덤 인용 */
 .aside-quote-container {
@@ -146,10 +189,20 @@
 .aside-quote {
   width: 100%;
   height: 60%;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
-  margin-bottom: 15px;
+  font-style: italic;
+  /* margin-bottom: 5px; */
 }
 .aside-author {
-  font-size: 15px;
+  font-size: 12px;
+}
+/* 공통 */
+.sub-title {
+}
+.bar {
+  margin: 5px 0;
+  width: 100%;
+  height: 1px;
+  border-bottom: 3px solid #38598b;
 }

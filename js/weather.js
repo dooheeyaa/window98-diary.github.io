@@ -22,9 +22,9 @@
         temp.classList.add("aside-weather-temp");
         temp.innerText = data.main.temp;
 
-        weatherCon.appendChild(weather);
         weatherCon.appendChild(temp);
         weatherCon.appendChild(city);
+        weatherCon.appendChild(weather);
       });
   }
 
