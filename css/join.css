@@ -1,36 +1,58 @@
-.join-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/* @keyframes typing {
+        0% {
+          width: 0;
+        }
+        100% {
+          width: 930px;
+        }
+      } */
+.wrap {
+  position: relative;
   width: 100vw;
   height: 100vh;
-  background-color: #e7eaf6;
+  background-color: #030291;
+  overflow: hidden;
 }
-.join {
-  position: relative;
-  width: 1000px;
-  height: 500px;
-  outline: 3px solid #38598b;
-  border-radius: 15px;
-}
-.join-message {
-  display: flex;
-  justify-content: center;
+.join-container {
   position: absolute;
-  top: 170px;
-  width: 1000px;
-  font-size: 2.5em;
-  font-weight: bold;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.join-comment {
+  font-size: 5rem;
+  color: white;
+  width: 930px;
+  /* 타이핑 애니메이션 추가 */
 }
 .join-form {
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  top: 280px;
-  width: 1000px;
-  height: 7%;
+  width: 930px;
+  padding: 50px 0 0 280px;
 }
-.join-form input {
-  margin-right: 20px;
-  width: 60%;
+#join-input {
+  width: 400px;
+  border: none;
+  border-bottom: 3px solid white;
+  font-size: 3rem;
+  font-family: "window98";
+  color: white;
+  background-color: #030291;
+}
+#join-input:focus {
+  outline: none;
+}
+.join-copy-container {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 780px;
+}
+.join-copy {
+  width: 780px;
+  color: white;
+  font-size: 2rem;
+}
+.join-copy-bottom {
+  padding: 5px 0px 0 70px;
 }

@@ -3,105 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>window 98</title>
     <link rel="stylesheet" href="css/style.css" />
     <style>
-      .hidden {
-        display: none;
+      * {
+        box-sizing: border-box;
       }
     </style>
   </head>
   <body>
-    <div class="join-container hidden">
-      <div class="join">
-        <h2 class="join-message">Hello! Please write your name😀</h2>
+    <div class="wrap">
+      <div class="join-container">
+        <div class="join-comment">Hello. Please write your name.</div>
         <form action="" class="join-form">
-          <input required type="text" name="" id="" maxlength="15" />
-          <button>sign in</button>
+          <input required maxlength="15" type="text" name="" id="join-input" />
         </form>
       </div>
-    </div>
-    <div class="wrap hidden">
-      <div class="container">
-        <header class="header">
-          <div class="header-greeting-container">
-            <h2 class="header-greeting"></h2>
-          </div>
-        </header>
-        <div class="content-container">
-          <section class="section">
-            <div class="section-time-container">
-              <h3 class="section-time-title" style="font-style: italic">
-                The time is...
-              </h3>
-              <h2 class="section-time">00:00:00</h2>
-            </div>
-            <div class="section-month-container">
-              <div class="secton-month">
-                <h3 class="sub-title">📆calendar</h3>
-                <div class="bar"></div>
-              </div>
-            </div>
-          </section>
-          <main class="main">
-            <h3 class="sub-title">📋toDo list</h3>
-            <div class="main-todo-list">
-              <ul></ul>
-            </div>
-            <form class="main-todo-note">
-              <input
-                required
-                type="text"
-                name=""
-                id="main-todo-note-form"
-                placeholder="write your To Do list and press enter!"
-              />
-            </form>
-          </main>
-          <aside class="aside">
-            <div class="aside-music-container">
-              <h3 class="sub-title">🎵music</h3>
-              <div class="bar"></div>
-              <div class="music-content-box">
-                <div class="music-cover"></div>
-                <div class="music-des">
-                  <div class="music-des-title"></div>
-                  <div class="music-des-singer"></div>
-                </div>
-              </div>
-              <div class="music-content-box">
-                <div class="music-cover"></div>
-                <div class="music-des">
-                  <div class="music-des-title"></div>
-                  <div class="music-des-singer"></div>
-                </div>
-              </div>
-              <div class="music-content-box">
-                <div class="music-cover"></div>
-                <div class="music-des">
-                  <div class="music-des-title"></div>
-                  <div class="music-des-singer"></div>
-                </div>
-              </div>
-            </div>
-            <div class="aside-weather-container">
-              <h3 class="sub-title">🌍weather</h3>
-              <div class="bar"></div>
-            </div>
-            <div class="aside-quote-container">
-              <h3 class="sub-title">📰quotes</h3>
-              <div class="bar"></div>
-            </div>
-          </aside>
-        </div>
+      <div class="join-copy-container">
+        <p class="join-copy join-copy-top">
+          Copyright (c) Microsoft Corporation, 1985, All rights Reserved.
+        </p>
+        <p class="join-copy join-copy-bottom">
+          Microsoft is a registered trademark of Microsoft Corp.
+        </p>
       </div>
     </div>
-    <script src="js/join.js"></script>
-    <script src="js/clock.js"></script>
-    <script src="js/quote.js"></script>
-    <script src="js/to-do.js"></script>
-    <script src="js/weather.js"></script>
-    <script src="js/music.js"></script>
-    <script src="js/calendar.js"></script>
   </body>
 </html>

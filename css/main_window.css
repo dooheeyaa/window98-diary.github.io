@@ -1,0 +1,114 @@
+.main-wrap {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #038081;
+}
+.task-manager {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 35px;
+  background-color: #c0c0c0;
+  border-top: 1px solid #f4f4f4;
+  border-bottom: 1px solid #4e4e4e;
+}
+.start-btn-con,
+.etc-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 32px;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.start-btn-icon {
+  width: 35px;
+  height: 100%;
+  background: url(../images/window_icon.png) no-repeat;
+}
+.start-btn {
+  font-size: 25px;
+  font-weight: bold;
+}
+.etc-con {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 130px;
+}
+.time {
+  font-size: 18px;
+}
+.sound-icon {
+  margin-right: 10px;
+  width: 30px;
+  height: 100%;
+  background: url(../images/sound_on_icon.png) no-repeat;
+}
+.menu-container {
+  position: absolute;
+  left: 15px;
+  width: 90px;
+  height: 80px;
+}
+.menu-icon {
+  width: 90px;
+  height: 60px;
+  background: no-repeat 50% 50%;
+  background-size: contain;
+}
+.menu-icon-name {
+  margin-top: 3px;
+  width: 90px;
+  height: 16px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+.computer {
+  top: 8px;
+}
+.computer .menu-icon {
+  background-image: url(../images/computer_icon.png);
+}
+.file {
+  top: 128px;
+}
+.file .menu-icon {
+  background-image: url(../images/file_icon.png);
+}
+.internet {
+  top: 248px;
+}
+.internet .menu-icon {
+  background-image: url(../images/internet_icon.png);
+}
+.network {
+  top: 368px;
+}
+.network .menu-icon {
+  background-image: url(../images/network_icon.png);
+}
+.recycle-bin {
+  top: 500px;
+}
+.recycle-bin .menu-icon {
+  background-image: url(../images/recycle_bin_icon.png);
+}
+.setup {
+  top: 595px;
+}
+.setup .menu-icon {
+  background-image: url(../images/setup_icon.png);
+}
+.outlook-express {
+  top: 8px;
+  left: 130px;
+}
+.outlook-express .menu-icon {
+  background-image: url(../images/outlook_express.png);
+}

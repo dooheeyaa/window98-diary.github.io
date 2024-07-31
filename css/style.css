@@ -1,10 +1,10 @@
 @import "./reset.css";
 @import "./join.css";
-@import "./main.css";
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
-
+@import "./main_window.css";
+@font-face {
+  src: url("../font/W95FA.otf");
+  font-family: "window98";
+}
 body {
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+  font-family: "window98";
 }
