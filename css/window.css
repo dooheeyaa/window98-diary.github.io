@@ -1,0 +1,174 @@
+/* 윈도우 공통 */
+.window-container {
+  position: absolute;
+  top: 90px;
+  left: 180px;
+  width: 300px;
+  height: 150px;
+}
+.window {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #bfb8bf;
+  border-top: 2px solid #efefef;
+  border-left: 2px solid #efefef;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+.window-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 25px;
+  background-color: #020080;
+}
+.window-heaer-title {
+  padding-left: 5px;
+  color: white;
+}
+.window-header-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.window-heaer-icon {
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  border-left: 2px solid #ededed;
+  border-top: 2px solid #ededed;
+  border-right: 2px solid #404040;
+  border-bottom: 2px solid #404040;
+}
+.qna,
+.close {
+  background: url(../images/qna_icon.png) no-repeat 50% 50%;
+  background-size: cover;
+  background-color: #bfb8bf;
+}
+.close {
+  background-image: url(../images/close_icon.png);
+}
+/* 기본, 시간 및 날씨 */
+.window-weather-time-container {
+  margin-top: 7px;
+  width: 100%;
+}
+.window-time {
+  padding: 10px 0;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+}
+.window-weather {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* 달력 */
+.window-calendar-container {
+  top: 270px;
+  left: 230px;
+  width: 400px;
+  height: 400px;
+}
+/* 인사말 */
+.window-greeting-container {
+  top: 30px;
+  left: 460px;
+  width: 300px;
+  height: 120px;
+}
+.window-greeting-ment-container {
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+/* 윈도우 버튼 */
+.window-check-container {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+  height: 50px;
+}
+.window-ok-btn,
+.window-cancel-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  width: 90px;
+  height: 30px;
+  border-left: 2px solid #ededed;
+  border-top: 2px solid #ededed;
+  border-right: 2px solid #404040;
+  border-bottom: 2px solid #404040;
+}
+/*  메모 입력 창 */
+.window-memo-form-container {
+  top: 20px;
+  left: 1100px;
+  height: 170px;
+}
+.window-memo-form-input-container {
+  padding: 10px;
+  width: 100%;
+  height: 100px;
+}
+#window-memo-input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border: 2px solid #ededed;
+  font-size: 20px;
+}
+#window-memo-input:focus {
+  outline: none;
+}
+.window-memo-btn {
+  margin-top: 17px;
+  margin-left: 180px;
+  border: none;
+  width: 90px;
+  height: 30px;
+  background-color: #bfb8bf;
+  cursor: pointer;
+}
+/* 메모 리스트 창 */
+.window-memo-form-list-container {
+  top: 180px;
+  left: 900px;
+  width: 420px;
+  height: 500px;
+}
+.window-memo-list-container {
+  margin: 15px;
+  width: 385px;
+  height: 435px;
+  background-color: white;
+  border: 2px solid #ededed;
+}
+.window-memo-list {
+  overflow: hidden;
+}
+.window-memo-item {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  font-size: 22px;
+}
+.window-memo-list-style {
+  margin-right: 5px;
+  width: 16px;
+  height: 16px;
+  border-top: 2px solid #efefef;
+  border-left: 2px solid #efefef;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+  border-radius: 50%;
+  cursor: pointer;
+}

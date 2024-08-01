@@ -1,6 +1,8 @@
 @import "./reset.css";
 @import "./join.css";
-@import "./main_window.css";
+@import "./main.css";
+@import "./window.css";
+
 @font-face {
   src: url("../font/W95FA.otf");
   font-family: "window98";
