@@ -34,6 +34,15 @@
   font-size: 25px;
   font-weight: bold;
 }
+.random-qoute {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 120px;
+  height: 32px;
+  font-size: 18px;
+}
 .etc-con {
   position: absolute;
   bottom: 0;
